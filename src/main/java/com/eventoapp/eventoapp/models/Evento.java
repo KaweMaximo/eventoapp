@@ -19,7 +19,7 @@ public class Evento implements Serializable {
     private String local;
     private String data;
 
-    public long getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
