@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br"
+xmlns:th="http://thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>EventosAPP</title>
+</head>
+<body>
+<h1 style="text-align: center;">Cadastro de Eventos:</h1>
+<hr>
+<form action="" method="post">
+    <div class="form-group" style="margin: 10px 150px 0px 150px;">
+        <br>
+        Nome: <input class="form-control" type="text" name="nome" required>
+        Local: <input class="form-control" type="text" name="local" requirede>
+        Data: <input class="form-control" type="date" name="data" requirede>
+        Horario: <input class="form-control" type="time" name="horario" required>
+        <br>
+        <button class="btn btn-primary" type="submit">Salvar</button>
+        <a href="/eventos" class="btn btn-primary">Listar Eventos</a>
+    </div>
+</form>
+
+</body>
+</html>
